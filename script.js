@@ -32,3 +32,6 @@ const personalMovieDB = {
     genres: [],
     privat: false
 };
+
+personalMovieDB[0] = prompt('Один из последних просмотренных фильмов?', '');
+personalMovieDB[1] = prompt('На сколько оцените его?', );
